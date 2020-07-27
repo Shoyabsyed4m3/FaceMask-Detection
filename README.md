@@ -8,3 +8,7 @@ The original dataset is prepared by [Prajna Bhandary](https://www.linkedin.com/i
 
 ## Outputs
 
+<img src="https://github.com/Shoyabsyed4m3/FaceMask-Detection/blob/master/Outputs/withoutmask1.PNG" >
+<img src="https://github.com/Shoyabsyed4m3/FaceMask-Detection/blob/master/Outputs/withmask1.PNG" >
+<img src="https://github.com/Shoyabsyed4m3/FaceMask-Detection/blob/master/Outputs/mask.PNG" >
+
