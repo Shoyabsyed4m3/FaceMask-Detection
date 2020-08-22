@@ -1,4 +1,4 @@
-# Facemask-detection using keras and Opencv
+# Facemask-detection using keras and Opencv 
 
 A Deep Learning Project to detct facemask in Live.This project is implemented in Python using Keras, Tensorflow as Backend and OpenCV.
 
