@@ -9,7 +9,7 @@ The original dataset is prepared by [Prajna Bhandary](https://www.linkedin.com/i
 ## Step 1 : Pre-processing the data
 The data set consists of images with mask and without mask. Take two lists named withmask and withoutmask and append all the images of withmask and wihout mask in to the lists respectively
 ## Step 2 : Using Convolutional Neural Network(CNN) to build model
-The Layers should be added are
+The Layers should be added are  <br/>
 1.2 Conv2d Layers each layer with a Relu layer followed by pooling layer <br/>
 2.Flatten layer  <br/>
 3.Dropout layer <br/>
