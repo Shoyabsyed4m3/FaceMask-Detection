@@ -110,7 +110,7 @@ history=model.fit(xtrain,ytrain,epochs=20,callbacks=[checkpoint],validation_spli
 #This will upto 30mins based on your dataset
 
 model.save('mymodel')   #to save the model
-
+    2
 
 
 #Using OpenCv to detect facemask in live
@@ -119,8 +119,12 @@ from keras.models import load_model
 import cv2
 import numpy as np
 
+model = load_model(r'C:\Users\DELL\Desktop\projects\Face Mask Detection\facemask.model')
+
 face_clsfr=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+
 source=cv2.VideoCapture(0)
+
 labels_dict={0:'MASK',1:'NO MASK'}
 color_dict={0:(0,255,0),1:(0,0,255)}
 
@@ -136,7 +140,7 @@ while(True):
         resized=cv2.resize(face_img,(100,100))
         normalized=resized/255.0
         reshaped=np.reshape(normalized,(1,100,100,1))
-        result=model.predict(reshaped)               #To predict
+        result=model.predict(reshaped)
 
         label=np.argmax(result,axis=1)[0]
       
@@ -148,9 +152,8 @@ while(True):
     cv2.imshow('LIVE',img)
     key=cv2.waitKey(1)
     
-    if(key==27):     #press Esc to exit
+    if(key==27):
         break
         
 cv2.destroyAllWindows()
 source.release()
-
