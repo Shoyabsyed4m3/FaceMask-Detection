@@ -24,4 +24,5 @@ First Load the saved model and import the required libraries such as Opencv and 
 <img src="https://github.com/Shoyabsyed4m3/FaceMask-Detection/blob/master/Outputs/withoutmask1.PNG" >
 <img src="https://github.com/Shoyabsyed4m3/FaceMask-Detection/blob/master/Outputs/withmask1.PNG" >
 <img src="https://github.com/Shoyabsyed4m3/FaceMask-Detection/blob/master/Outputs/mask.PNG" >
+<br/>
 
